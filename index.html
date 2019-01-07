@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Password Generator in JS</title>
+    <div class="wrapper">
+        <button class="btn" onclick="close1()">X</button>
+    </div>
+    <h1>
+        PASSWORD GENERATOR
+    </h1>
+</head>
+<body style="text-align: center" bgcolor="#262626" text="white">
+<form class="form"  onsubmit="return false">
+    <p>
+        <label>First Name:<br>
+        <input type="text" name="name" placeholder="Please Enter Your First Name...." required>
+        </label>
+    </p>
+    <p>
+        <label>Last Name:<br>
+        <input name="dob" type="text" placeholder="Please Enter Your Last Name...." required>
+        </label>
+    </p>
+    <p>
+        <label>Special Characters & Numbers:<br>
+            <input name="name2" type="text" placeholder="Enter the special characters & numbers...." size="3" required>
+        </label>
+    </p>
+    <p>
+        <input id="sub" class="button" type="submit" value="Generate" onclick="myFunction(this.form)">
+        <input id="cls" class="button" type="button" value="Clear" onclick="myClear(this.form)">
+    </p>
+</form>
+<hr>
+<p>
+    <br>
+    <label for="out"></label><input class="result" value="Your Password Appear Here" id="out">
+</p>
+<hr>
+<footer>
+    by Thanigai &#128526;
+</footer>
+<script src="index.js"></script>
+</body>
+</html>
